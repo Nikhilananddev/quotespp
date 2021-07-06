@@ -9,6 +9,7 @@ import com.example.quotesapp.Dto.Quote;
 import com.example.quotesapp.model.QuoteEntity;
 import com.example.quotesapp.repository.QuoteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
